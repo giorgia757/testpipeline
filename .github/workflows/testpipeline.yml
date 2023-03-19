@@ -38,7 +38,8 @@ jobs:
       - name: run unit tests
         run: |
           pip install pytest
-          pytest EreklesPackage/test.py
+          cd EreklesPackage
+          pytest test.py
           echo "Here is the log level on Tests Step ${{ inputs.logLevel }}"
   BuildPackage:
     name: Build the Package
