@@ -1,5 +1,5 @@
 def function_init():
-    print('Successfully Imported Init.py')
+    print("Successfully Imported Init.py")
     return 0
 
 def print_age(age):
