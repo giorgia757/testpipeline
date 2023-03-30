@@ -1,4 +1,4 @@
-from EreklesPackage.__init__ import *
+from sandro import *
 
 def test_function_init():
     assert function_init() == 0
